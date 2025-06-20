@@ -62,7 +62,7 @@ This document describes the JSON format for the RobinHood Project blacklist, use
 
 ### Common Reason IDs
 
-See [Ban Reason Codes](ReasonID.md)
+See [Ban Reason Codes](ReasonID_en.md)
 
 ### Notes
 
