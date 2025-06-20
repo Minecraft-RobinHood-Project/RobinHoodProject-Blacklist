@@ -3,21 +3,7 @@
         {
             "uuid": "9d635577-0559-3293-ac2e-4dafdfa4bc4c",
             "reason_id": "game_cheat_client",
-            "reason_original": "使用作弊客户端进行游戏",
-            "submitted_by": "RHP-TestServer",            
-            "ban_timestamp": "1750408200"
-        },
-        {
-            "uuid": "234e5678-e89b-12d3-a456-426614174001",
-            "reason_id": "chat_spam",
-            "reason_original": "在服务器内发送大量垃圾信息刷屏",
-            "submitted_by": "RHP-TestServer",            
-            "ban_timestamp": "1750408200"
-        },
-        {
-            "uuid": "345e6789-e89b-12d3-a456-426614174002",
-            "reason_id": "game_pvp_tk",
-            "reason_original": "在PVP服务器中恶意攻击队友",
+            "reason_original": "使用外挂客户端连接服务器",
             "submitted_by": "RHP-TestServer",            
             "ban_timestamp": "1750408200"
         }
