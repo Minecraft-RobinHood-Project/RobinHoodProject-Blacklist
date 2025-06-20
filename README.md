@@ -14,7 +14,7 @@
             "reason_id": "<原因代号>",
             "reason_original": "<详细原因>",
             "submitted_by": "<提交者ID>",
-            "ban_timestamp": "<Unix时间戳>"
+            "ban_timestamp": <Unix时间戳>
         },
     ]
 }
@@ -24,11 +24,11 @@
 
 | 字段              | 类型   | 描述                                                       |
 |-------------------|--------|------------------------------------------------------------|
-| `uuid`            | 字符串 | 玩家唯一标识符（UUID），用于识别玩家 |
-| `reason_id`       | 字符串 | 封禁原因的代号，便于分类和快速识别                   |
-| `reason_original` | 字符串 | 封禁原因的详细描述，说明具体违规行为                     |
-| `submitted_by`    | 字符串 | 提交封禁的服务器名称，用于追踪来源   |
-| `ban_timestamp`   | 字符串 | 提交封禁时间的Unix秒级时间戳         |
+| `uuid`            | String | 玩家唯一标识符（UUID），用于识别玩家 |
+| `reason_id`       | String | 封禁原因的代号，便于分类和快速识别                   |
+| `reason_original` | String | 封禁原因的详细描述，说明具体违规行为                     |
+| `submitted_by`    | String | 提交封禁的服务器名称，用于追踪来源   |
+| `ban_timestamp`   | Int | 提交封禁时间的Unix秒级时间戳         |
 
 ### 示例
 
@@ -40,21 +40,21 @@
             "reason_id": "game_cheat",
             "reason_original": "使用作弊客户端进行游戏",
             "submitted_by": "RHP-TestServer",
-            "ban_timestamp": "1750408200"
+            "ban_timestamp": 1750408200
         },
         {
             "uuid": "234e5678-e89b-12d3-a456-426614174001",
             "reason_id": "chat_spam",
             "reason_original": "在服务器内发送大量垃圾信息刷屏",
             "submitted_by": "RHP-TestServer",
-            "ban_timestamp": "1750408200"
+            "ban_timestamp": 1750408200
         },
         {
             "uuid": "345e6789-e89b-12d3-a456-426614174002",
             "reason_id": "game_pvp_tk",
             "reason_original": "在PVP服务器中恶意攻击队友",
             "submitted_by": "RHP-TestServer",
-            "ban_timestamp": "1750408200"
+            "ban_timestamp": 1750408200
         }
     ]
 }
