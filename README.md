@@ -1,6 +1,6 @@
 # RobinHood Project Blacklist Format
 
-[English Version](README_en.md)
+[English](README_en.md)
 
 本文件描述了 RobinHood Project 黑名单的JSON格式，用于记录被封禁玩家的信息，包括UUID、封禁原因及相关数据
 
@@ -16,7 +16,6 @@
             "submitted_by": "<提交者ID>",
             "ban_timestamp": "<Unix时间戳>"
         },
-        ...
     ]
 }
 ```
