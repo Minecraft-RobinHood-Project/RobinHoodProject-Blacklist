@@ -1,7 +1,7 @@
 {
     "blacklist": [
         {
-            "uuid": "123e4567-e89b-12d3-a456-426614174000",
+            "uuid": "9d635577-0559-3293-ac2e-4dafdfa4bc4c",
             "reason_id": "game_cheat",
             "reason_original": "使用作弊客户端进行游戏",
             "submitted_by": "RHP-TestServer",            
