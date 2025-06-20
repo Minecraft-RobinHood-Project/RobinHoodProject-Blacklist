@@ -2,7 +2,7 @@
     "blacklist": [
         {
             "uuid": "9d635577-0559-3293-ac2e-4dafdfa4bc4c",
-            "reason_id": "game_cheat",
+            "reason_id": "game_cheat_client",
             "reason_original": "使用作弊客户端进行游戏",
             "submitted_by": "RHP-TestServer",            
             "ban_timestamp": "1750408200"
