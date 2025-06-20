@@ -14,7 +14,7 @@ This document describes the JSON format for the RobinHood Project blacklist, use
             "reason_id": "<reason-code>",
             "reason_original": "<detailed-reason>",
             "submitted_by": "<submitter-id>",
-            "ban_timestamp": "<unix-timestamp>"
+            "ban_timestamp": <unix-timestamp>
         }
     ]
 }
@@ -28,7 +28,7 @@ This document describes the JSON format for the RobinHood Project blacklist, use
 | `reason_id`        | String | Code for the ban reason, facilitating categorization.         |
 | `reason_original`  | String | Detailed description of the ban reason and violation context. |
 | `submitted_by`     | String | Server name that submitted the ban, for tracking purposes.    |
-| `ban_timestamp`    | String | Unix timestamp (seconds) when the ban was issued.             |
+| `ban_timestamp`    | Int | Unix timestamp (seconds) when the ban was issued.             |
 
 ### Example
 
@@ -40,21 +40,21 @@ This document describes the JSON format for the RobinHood Project blacklist, use
             "reason_id": "game_cheat",
             "reason_original": "Using cheat clients in gameplay",
             "submitted_by": "RHP-TestServer",
-            "ban_timestamp": "1750408200"
+            "ban_timestamp": 1750408200
         },
         {
             "uuid": "234e5678-e89b-12d3-a456-426614174001",
             "reason_id": "chat_spam",
             "reason_original": "Sending excessive spam messages in server chat",
             "submitted_by": "RHP-TestServer",
-            "ban_timestamp": "1750408200"
+            "ban_timestamp": 1750408200
         },
         {
             "uuid": "345e6789-e89b-12d3-a456-426614174002",
             "reason_id": "game_pvp_tk",
             "reason_original": "Maliciously attacking teammates in PVP server",
             "submitted_by": "RHP-TestServer",
-            "ban_timestamp": "1750408200"
+            "ban_timestamp": 1750408200
         }
     ]
 }
